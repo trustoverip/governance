@@ -1,0 +1,292 @@
+teams:
+- name: admin
+  maintainers:
+  - JFleenor
+  - m00sey
+  members:
+  - darrellodonnell
+  - talltree
+- name: ctwg
+  maintainers:
+  - m00sey
+  members:
+  - henkvancann
+  - kordwarshuis
+  - talltree
+- name: dmrwg
+  maintainers:
+  - m00sey
+  members:
+  - neiljthomson
+  - stevenmilstein
+- name: efwg
+  maintainers:
+  - m00sey
+  members: []
+- name: gswg
+  maintainers:
+  - m00sey
+  members: []
+- name: hewg
+  maintainers:
+  - m00sey
+  members: []
+- name: keri-admins
+  maintainers: []
+  members:
+  - henkvancann
+  - kordwarshuis
+- name: keri-suite-wg
+  maintainers: []
+  members:
+  - henkvancann
+  - kordwarshuis
+- name: kswg
+  maintainers:
+  - SmithSamuelM
+  - m00sey
+  - pfeairheller
+  members: []
+- name: kswg-suc
+  maintainers:
+  - m00sey
+  members: []
+- name: tswg
+  maintainers:
+  - m00sey
+  members:
+  - danielbachgit
+  - darrellodonnell
+  - talltree
+  - wenjing
+- name: tswg-acdc-tf
+  maintainers:
+  - m00sey
+  members:
+  - SmithSamuelM
+  - pfeairheller
+- name: tswg-aimt-tf
+  maintainers:
+  - m00sey
+  members:
+  - wenjing
+- name: tswg-cep-tf
+  maintainers:
+  - m00sey
+  members:
+  - mathieuglaude
+- name: tswg-did-webs-tf
+  maintainers:
+  - m00sey
+  members:
+  - jrayback
+  - kentbull
+- name: tswg-did-x509-tf
+  maintainers:
+  - m00sey
+  members:
+  - jacqueslatour
+  - kudrixD
+  - mathieuglaude
+  - scouten-adobe
+  - talltree
+  - wenjing
+- name: tswg-dossier-specification-tf
+  maintainers:
+  - dhh1128
+  - m00sey
+  members:
+  - SmithSamuelM
+  - kentbull
+- name: tswg-ta-tf
+  maintainers:
+  - andorsk
+  - m00sey
+  members:
+  - talltree
+- name: tswg-tr-tf
+  maintainers:
+  - andorsk
+  - m00sey
+  members:
+  - a-fox
+  - darrellodonnell
+- name: tswg-tsp-tf
+  maintainers:
+  - m00sey
+  members:
+  - SmithSamuelM
+  - talltree
+  - wenjing
+- name: ufwg
+  maintainers:
+  - m00sey
+  members: []
+repositories:
+- name: EasyCLA
+  teams:
+    admin: admin
+  visibility: public
+- name: PDF-Deliverable-Review
+  teams:
+    admin: admin
+  visibility: public
+- name: TechArch
+  collaborators:
+    henkvancann: admin
+    kordwarshuis: admin
+    talltree: write
+    wenjing: admin
+  visibility: public
+- name: aimwg-tmcp-specification
+  collaborators:
+    wenjing: admin
+  teams:
+    tswg-aimt-tf: maintain
+  visibility: public
+- name: credential-exchange-protocols
+  collaborators:
+    mathieuglaude: admin
+  teams:
+    tswg-cep-tf: write
+  visibility: public
+- name: ctwg-general-glossary
+  teams:
+    ctwg: admin
+  visibility: public
+- name: ctwg-main-glossary
+  collaborators:
+    darrellodonnell: admin
+  teams:
+    ctwg: admin
+  visibility: public
+- name: ctwg-terminology-governance-guide
+  teams:
+    ctwg: admin
+  visibility: public
+- name: governance
+  visibility: public
+- name: kerisuite-glossary
+  teams:
+    keri-suite-wg: admin
+  visibility: public
+- name: kswg-dossier-specification
+  teams:
+    tswg-dossier-specification-tf: admin
+  visibility: public
+- name: kswg-main-glossary
+  teams:
+    ctwg: admin
+    kswg: admin
+  visibility: public
+- name: kswg-said-urn-charter
+  collaborators:
+    wenjing: maintain
+  teams:
+    kswg: admin
+  visibility: public
+- name: logo-assets
+  teams:
+    admin: admin
+  visibility: public
+- name: spec-up
+  teams:
+    admin: admin
+  visibility: public
+- name: spec-up-t
+  collaborators:
+    chris-h-sg: admin
+    kordwarshuis: admin
+    pandyapreksha16-beep: write
+  teams:
+    keri-admins: admin
+  visibility: public
+- name: spec-up-t-demo-on-documentation-website
+  teams:
+    ctwg: admin
+  visibility: public
+- name: spec-up-t-old
+  collaborators:
+    chris-h-sg: maintain
+    henkvancann: maintain
+    kordwarshuis: maintain
+  teams:
+    ctwg: maintain
+  visibility: public
+- name: spec-up-t-starter-pack
+  teams:
+    ctwg: admin
+  visibility: public
+- name: spec-up-t-website
+  teams:
+    ctwg: admin
+  visibility: public
+- name: specification-template
+  teams:
+    tswg: maintain
+  visibility: public
+- name: toip
+  collaborators:
+    RieksJ: maintain
+    kordwarshuis: write
+    talltree: maintain
+  visibility: public
+- name: tswg-acdc-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
+  visibility: public
+- name: tswg-authentic-ai
+  collaborators:
+    wenjing: admin
+  visibility: public
+- name: tswg-cesr-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
+  visibility: public
+- name: tswg-did-method-webs-specification
+  teams:
+    tswg: maintain
+    tswg-did-webs-tf: maintain
+  visibility: public
+- name: tswg-did-x509-method-specification
+  teams:
+    tswg: maintain
+    tswg-did-x509-tf: maintain
+  visibility: public
+- name: tswg-keri-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
+  visibility: public
+- name: tswg-tech-architecture-spec
+  collaborators:
+    darrellodonnell: admin
+  teams:
+    tswg-ta-tf: maintain
+  visibility: public
+- name: tswg-trust-registry-protocol
+  collaborators:
+    darrellodonnell: admin
+  teams:
+    tswg: maintain
+    tswg-tr-tf: write
+  visibility: public
+- name: tswg-trust-registry-query-language
+  visibility: public
+- name: tswg-trust-registry-service-profile
+  teams:
+    tswg: maintain
+    tswg-tr-tf: write
+  visibility: public
+- name: tswg-tsp-specification
+  teams:
+    tswg: maintain
+    tswg-tsp-tf: write
+  visibility: public
+- name: vLEI-EGF-3.0-Annual-Update-Public-Review
+  visibility: public
