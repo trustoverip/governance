@@ -170,9 +170,27 @@ repositories:
   teams:
     keri-suite-wg: admin
   visibility: public
+- name: kswg-acdc-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
+  visibility: public
+- name: kswg-cesr-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
+  visibility: public
 - name: kswg-dossier-specification
   teams:
     tswg-dossier-specification-tf: admin
+  visibility: public
+- name: kswg-keri-specification
+  teams:
+    keri-admins: admin
+    tswg: maintain
+    tswg-acdc-tf: write
   visibility: public
 - name: kswg-main-glossary
   teams:
@@ -205,6 +223,10 @@ repositories:
   teams:
     ctwg: admin
   visibility: public
+- name: spec-up-t-healthcheck
+  collaborators:
+    kordwarshuis: admin
+  visibility: public
 - name: spec-up-t-old
   collaborators:
     chris-h-sg: maintain
@@ -231,21 +253,9 @@ repositories:
     kordwarshuis: write
     talltree: maintain
   visibility: public
-- name: tswg-acdc-specification
-  teams:
-    keri-admins: admin
-    tswg: maintain
-    tswg-acdc-tf: write
-  visibility: public
 - name: tswg-authentic-ai
   collaborators:
     wenjing: admin
-  visibility: public
-- name: tswg-cesr-specification
-  teams:
-    keri-admins: admin
-    tswg: maintain
-    tswg-acdc-tf: write
   visibility: public
 - name: tswg-did-method-webs-specification
   teams:
@@ -256,12 +266,6 @@ repositories:
   teams:
     tswg: maintain
     tswg-did-x509-tf: maintain
-  visibility: public
-- name: tswg-keri-specification
-  teams:
-    keri-admins: admin
-    tswg: maintain
-    tswg-acdc-tf: write
   visibility: public
 - name: tswg-tech-architecture-spec
   collaborators:
