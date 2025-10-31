@@ -128,7 +128,6 @@ teams:
   maintainers:
   - m00sey
   - talltree
-  - geoffturk
   members: []
 repositories:
 - name: EasyCLA
@@ -303,6 +302,8 @@ repositories:
 - name: vLEI-EGF-3.0-Annual-Update-Public-Review
   visibility: public
 - name: dtgwg-cred-tf
+  collaborators:
+    geoffturk: admin
   teams:
     dtgwg: maintain
   visbility: public
