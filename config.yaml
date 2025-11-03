@@ -304,6 +304,8 @@ repositories:
 - name: dtgwg-cred-tf
   collaborators:
     geoffturk: admin
+    bmiller59: maintain
+    albertoleon7794: maintain
   teams:
     dtgwg: maintain
   visbility: public
