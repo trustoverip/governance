@@ -130,6 +130,10 @@ teams:
   - talltree
   members: []
 repositories:
+- name: .github
+  teams:
+    admin: admin
+  visibility: public
 - name: EasyCLA
   teams:
     admin: admin
@@ -172,6 +176,8 @@ repositories:
     ctwg: admin
   visibility: public
 - name: governance
+  teams:
+    admin: maintain
   visibility: public
 - name: kerisuite-glossary
   teams:
