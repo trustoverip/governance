@@ -1,7 +1,6 @@
 teams:
 - name: admin
   maintainers:
-  - JFleenor
   - m00sey
   members:
   - darrellodonnell
@@ -49,6 +48,11 @@ teams:
   - m00sey
   - pfeairheller
   members: []
+- name: kswg-said-urn-charter-maintainers
+  maintainers:
+  - wenjing
+  members:
+  - carlyh-micb
 - name: kswg-suc
   maintainers:
   - m00sey
@@ -211,10 +215,9 @@ repositories:
     kswg: admin
   visibility: public
 - name: kswg-said-urn-charter
-  collaborators:
-    wenjing: maintain
   teams:
     kswg: admin
+    kswg-said-urn-charter-maintainers: maintain
   visibility: public
 - name: logo-assets
   teams:
