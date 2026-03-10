@@ -18,6 +18,14 @@ teams:
   members:
   - neiljthomson
   - stevenmilstein
+- name: dtgwg-maintainers
+  maintainers:
+  - talltree
+  members:
+  - martipos
+  - NickyHickman
+  - geoffturk
+  - stormer78
 - name: efwg
   maintainers:
   - m00sey
@@ -57,6 +65,15 @@ teams:
   maintainers:
   - m00sey
   members: []
+- name: toip-template-maintainers
+  maintainers:
+  - talltree
+  members:
+  - carlyh-micb
+  - ScottSPerryCPA
+  - martipos
+  - henkvancann
+  - kordwarshuis
 - name: tswg
   maintainers:
   - m00sey
@@ -179,6 +196,22 @@ repositories:
   teams:
     ctwg: admin
   visibility: public
+- name: dtgwg-rahp-tf
+  teams:
+    dtgwg-maintainers: maintain
+  visibility: public
+- name: dtgwg-trust-tasks-tf
+  teams:
+    dtgwg-maintainers: maintain
+  visibility: public
+- name: dtgwg-rcards-tf
+  teams:
+    dtgwg-maintainers: maintain
+  visibility: public
+- name: dtgwg-agent-names-tf
+  teams:
+    dtgwg-maintainers: maintain
+  visibility: public
 - name: governance
   teams:
     admin: maintain
@@ -268,6 +301,10 @@ repositories:
     RieksJ: maintain
     kordwarshuis: write
     talltree: maintain
+  visibility: public
+- name: toip-template
+  teams:
+    toip-template-maintainers: maintain
   visibility: public
 - name: tswg-authentic-ai
   collaborators:
