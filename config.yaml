@@ -303,6 +303,8 @@ repositories:
     talltree: maintain
   visibility: public
 - name: toip-template
+  collaborators:
+    geoffturk: admin
   teams:
     toip-template-maintainers: maintain
   visibility: public
