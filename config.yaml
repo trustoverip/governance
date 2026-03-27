@@ -34,6 +34,18 @@ teams:
   maintainers:
   - m00sey
   members: []
+- name: high-assurance-verifiable-identifiers-wg
+  maintainers:
+  - talltree
+  members:
+  - andorsk
+  - darrellodonnell
+  - JohnOnGH
+  - peacekeeper
+  - sankarshanmukhopadhyay
+  - trbouma
+  - tweeddalex
+  - wenjing
 - name: hewg
   maintainers:
   - m00sey
@@ -215,6 +227,10 @@ repositories:
 - name: governance
   teams:
     admin: maintain
+  visibility: public
+- name: high-assurance-verifiable-identifiers
+  teams:
+    high-assurance-verifiable-identifiers-wg: maintain
   visibility: public
 - name: kerisuite-glossary
   teams:
