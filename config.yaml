@@ -18,6 +18,12 @@ teams:
   members:
   - neiljthomson
   - stevenmilstein
+- name: dtgwg-general-maintainers
+  maintainers:
+  - talltree
+  members:
+  - martipos
+  - NickyHickman
 - name: dtgwg-maintainers
   maintainers:
   - talltree
@@ -52,15 +58,13 @@ teams:
   members: []
 - name: keri-admins
   maintainers:
-  - ryjones
-  members:
   - henkvancann
+  members:
   - kordwarshuis
 - name: keri-suite-wg
   maintainers:
-  - ryjones
-  members:
   - henkvancann
+  members:
   - kordwarshuis
 - name: kswg
   maintainers:
@@ -207,6 +211,10 @@ repositories:
 - name: ctwg-terminology-governance-guide
   teams:
     ctwg: admin
+  visibility: public
+- name: dtgwg-general
+  teams:
+    dtgwg-general-maintainers: maintain
   visibility: public
 - name: dtgwg-rahp-tf
   teams:
