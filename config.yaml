@@ -36,6 +36,10 @@ teams:
   maintainers:
   - m00sey
   members: []
+- name: egwg-learning-pathways-wg
+  maintainers:
+  - carlyh-micb
+  members: []
 - name: gswg
   maintainers:
   - m00sey
@@ -231,6 +235,10 @@ repositories:
 - name: dtgwg-agent-names-tf
   teams:
     dtgwg-maintainers: maintain
+  visibility: public
+- name: egwg-learning-pathways
+  teams:
+    egwg-learning-pathways-wg: maintain
   visibility: public
 - name: governance
   teams:
