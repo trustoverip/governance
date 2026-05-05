@@ -223,19 +223,19 @@ repositories:
   visibility: public
 - name: dtgwg-rahp-tf
   teams:
-    dtgwg-maintainers: maintain
+    dtgwg-maintainers: admin
   visibility: public
 - name: dtgwg-trust-tasks-tf
   teams:
-    dtgwg-maintainers: maintain
+    dtgwg-maintainers: admin
   visibility: public
 - name: dtgwg-rcards-tf
   teams:
-    dtgwg-maintainers: maintain
+    dtgwg-maintainers: admin
   visibility: public
 - name: dtgwg-agent-names-tf
   teams:
-    dtgwg-maintainers: maintain
+    dtgwg-maintainers: admin
   visibility: public
 - name: egwg-learning-pathways
   teams:
