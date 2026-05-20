@@ -32,6 +32,13 @@ teams:
   - NickyHickman
   - geoffturk
   - stormer78
+- name: dtgwg-tf-maintainers
+  maintainers:
+  - talltree
+  members:
+  - martipos
+  - NickyHickman
+  - geoffturk
 - name: efwg
   maintainers:
   - m00sey
@@ -236,6 +243,14 @@ repositories:
 - name: dtgwg-agent-names-tf
   teams:
     dtgwg-maintainers: admin
+  visibility: public
+- name: dtgwg-ux-tf
+  teams:
+    dtgwg-tf-maintainers: admin
+  visibility: public
+- name: dtgwg-zkp-tf
+  teams:
+    dtgwg-tf-maintainers: admin
   visibility: public
 - name: egwg-learning-pathways
   teams:
