@@ -120,6 +120,7 @@ teams:
   - m00sey
   members:
   - wenjing
+  - swatchen
 - name: tswg-cep-tf
   maintainers:
   - m00sey
@@ -201,6 +202,7 @@ repositories:
 - name: aimwg-tmcp-specification
   collaborators:
     wenjing: admin
+    swatchen: admin
   teams:
     tswg-aimt-tf: maintain
   visibility: public
