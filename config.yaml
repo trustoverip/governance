@@ -414,3 +414,13 @@ repositories:
     teams:
       dtgwg: maintain
     visbility: public
+  - name: dtgwg-cred-spec
+    collaborators:
+      geoffturk: admin
+      bmiller59: admin
+      talltree: maintain
+      martipos: maintain
+      albertoleon7794: maintain
+    teams:
+      dtgwg: maintain
+    visbility: public
