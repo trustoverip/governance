@@ -205,12 +205,20 @@ repositories:
       talltree: write
       wenjing: admin
     visibility: public
-  - name: aimwg-tmcp-specification
+  - name: aimwg-agent-fiduciary-duties
     collaborators:
       wenjing: admin
+    visibility: public
+  - name: aimwg-tmcp-specification
+    collaborators:
       swatchen: admin
+      wenjing: admin
     teams:
       tswg-aimt-tf: maintain
+    visibility: public
+  - name: aimwg-tsp-enabled-ai-agent-protocols
+    collaborators:
+      wenjing: admin
     visibility: public
   - name: credential-exchange-protocols
     collaborators:
@@ -232,6 +240,28 @@ repositories:
     teams:
       ctwg: admin
     visibility: public
+  - name: dtgwg-agent-names-tf
+    teams:
+      dtgwg-maintainers: admin
+    visibility: public
+  - name: dtgwg-cred-spec
+    collaborators:
+      albertoleon7794: maintain
+      bmiller59: admin
+      geoffturk: admin
+      martipos: maintain
+      talltree: maintain
+    teams:
+      dtgwg: maintain
+    visibility: public
+  - name: dtgwg-cred-tf
+    collaborators:
+      albertoleon7794: maintain
+      bmiller59: maintain
+      geoffturk: admin
+    teams:
+      dtgwg: maintain
+    visibility: public
   - name: dtgwg-general
     teams:
       dtgwg-general-maintainers: maintain
@@ -240,15 +270,11 @@ repositories:
     teams:
       dtgwg-maintainers: admin
     visibility: public
-  - name: dtgwg-trust-tasks-tf
-    teams:
-      dtgwg-maintainers: admin
-    visibility: public
   - name: dtgwg-rcards-tf
     teams:
       dtgwg-maintainers: admin
     visibility: public
-  - name: dtgwg-agent-names-tf
+  - name: dtgwg-trust-tasks-tf
     teams:
       dtgwg-maintainers: admin
     visibility: public
@@ -289,6 +315,11 @@ repositories:
       tswg: maintain
       tswg-acdc-tf: write
     visibility: public
+  - name: kswg-did-method-webs-specification
+    teams:
+      tswg: maintain
+      tswg-did-webs-tf: maintain
+    visibility: public
   - name: kswg-dossier-specification
     teams:
       tswg-dossier-specification-tf: admin
@@ -325,9 +356,13 @@ repositories:
     teams:
       keri-admins: admin
     visibility: public
-  - name: spec-up-t-demo-on-documentation-website
-    teams:
-      ctwg: admin
+  - name: spec-up-t-demo-external-ref-1
+    collaborators:
+      kordwarshuis: admin
+    visibility: public
+  - name: spec-up-t-demo-external-ref-2
+    collaborators:
+      kordwarshuis: admin
     visibility: public
   - name: spec-up-t-healthcheck
     collaborators:
@@ -406,21 +441,5 @@ repositories:
     visibility: public
   - name: vLEI-EGF-3.0-Annual-Update-Public-Review
     visibility: public
-  - name: dtgwg-cred-tf
-    collaborators:
-      geoffturk: admin
-      bmiller59: maintain
-      albertoleon7794: maintain
-    teams:
-      dtgwg: maintain
-    visbility: public
-  - name: dtgwg-cred-spec
-    collaborators:
-      geoffturk: admin
-      bmiller59: admin
-      talltree: maintain
-      martipos: maintain
-      albertoleon7794: maintain
-    teams:
-      dtgwg: maintain
-    visbility: public
+  - name: vLEI-EGF-4.0-Annual-Update-Public-Review
+    visibility: public
