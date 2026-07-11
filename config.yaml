@@ -285,6 +285,9 @@ repositories:
   - name: dtgwg-zkp-tf
     teams:
       dtgwg-tf-maintainers: admin
+    collaborators:
+      scottjeezey: admin
+      mitchuski: admin
     visibility: public
   - name: egwg-learning-pathways
     teams:
