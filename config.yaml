@@ -286,7 +286,7 @@ repositories:
     teams:
       dtgwg-tf-maintainers: admin
     collaborators:
-      scottjeezey: admin
+      ScottJeezey: admin
       mitchuski: admin
     visibility: public
   - name: egwg-learning-pathways
