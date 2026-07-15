@@ -5,11 +5,6 @@ teams:
     members:
       - darrellodonnell
       - talltree
-  - name: lfstaff
-    maintainers:
-      - ryjones
-    members:
-      - minyu66
   - name: aimwg-agent-fiduciary-duties-maintainers
     maintainers:
       - wenjing
@@ -28,27 +23,32 @@ teams:
     members:
       - neiljthomson
       - stevenmilstein
+  - name: dtgwg
+    maintainers:
+      - m00sey
+      - talltree
+    members: []
   - name: dtgwg-general-maintainers
     maintainers:
       - talltree
     members:
-      - martipos
       - NickyHickman
+      - martipos
   - name: dtgwg-maintainers
     maintainers:
       - talltree
     members:
-      - martipos
       - NickyHickman
       - geoffturk
+      - martipos
       - stormer78
   - name: dtgwg-tf-maintainers
     maintainers:
       - talltree
     members:
-      - martipos
       - NickyHickman
       - geoffturk
+      - martipos
   - name: efwg
     maintainers:
       - m00sey
@@ -61,22 +61,22 @@ teams:
     maintainers:
       - m00sey
     members: []
+  - name: hewg
+    maintainers:
+      - m00sey
+    members: []
   - name: high-assurance-verifiable-identifiers-wg
     maintainers:
+      - andorsk
       - talltree
     members:
-      - andorsk
-      - darrellodonnell
       - JohnOnGH
+      - darrellodonnell
       - peacekeeper
       - sankarshanmukhopadhyay
       - trbouma
       - tweeddalex
       - wenjing
-  - name: hewg
-    maintainers:
-      - m00sey
-    members: []
   - name: keri-admins
     maintainers:
       - henkvancann
@@ -102,15 +102,20 @@ teams:
     maintainers:
       - m00sey
     members: []
+  - name: lfstaff
+    maintainers:
+      - ryjones
+    members:
+      - minyu66
   - name: toip-template-maintainers
     maintainers:
       - talltree
     members:
-      - carlyh-micb
       - ScottSPerryCPA
-      - martipos
+      - carlyh-micb
       - henkvancann
       - kordwarshuis
+      - martipos
   - name: tswg
     maintainers:
       - m00sey
@@ -129,8 +134,8 @@ teams:
     maintainers:
       - m00sey
     members:
-      - wenjing
       - swatchen
+      - wenjing
   - name: tswg-cep-tf
     maintainers:
       - m00sey
@@ -183,11 +188,6 @@ teams:
   - name: ufwg
     maintainers:
       - m00sey
-    members: []
-  - name: dtgwg
-    maintainers:
-      - m00sey
-      - talltree
     members: []
 repositories:
   - name: .github
@@ -290,11 +290,11 @@ repositories:
       dtgwg-tf-maintainers: admin
     visibility: public
   - name: dtgwg-zkp-tf
-    teams:
-      dtgwg-tf-maintainers: admin
     collaborators:
       ScottJeezey: admin
       mitchuski: admin
+    teams:
+      dtgwg-tf-maintainers: admin
     visibility: public
   - name: egwg-learning-pathways
     teams:
