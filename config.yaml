@@ -10,6 +10,11 @@ teams:
       - ryjones
     members:
       - minyu66
+  - name: aimwg-agent-fiduciary-duties-maintainers
+    maintainers:
+      - wenjing
+    members:
+      - swatchen
   - name: ctwg
     maintainers:
       - m00sey
@@ -208,6 +213,8 @@ repositories:
   - name: aimwg-agent-fiduciary-duties
     collaborators:
       wenjing: admin
+    teams:
+      aimwg-agent-fiduciary-duties-maintainers: maintain
     visibility: public
   - name: aimwg-tmcp-specification
     collaborators:
