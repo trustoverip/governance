@@ -273,6 +273,10 @@ repositories:
     teams:
       dtgwg-general-maintainers: maintain
     visibility: public
+  - name: dtgwg-htx-tf
+    teams:
+      dtgwg-tf-maintainers: admin
+    visibility: public
   - name: dtgwg-rahp-tf
     teams:
       dtgwg-maintainers: admin
@@ -288,6 +292,10 @@ repositories:
   - name: dtgwg-ux-tf
     teams:
       dtgwg-tf-maintainers: admin
+    visibility: public
+  - name: dtgwg-vds-tf
+    teams:
+      dtgwg-maintainers: admin
     visibility: public
   - name: dtgwg-zkp-tf
     collaborators:
