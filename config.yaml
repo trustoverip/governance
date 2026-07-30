@@ -5,11 +5,28 @@ teams:
     members:
       - darrellodonnell
       - talltree
+  - name: aimwg-agent-fiduciary-duties-admins
+    maintainers:
+      - wenjing
+    members: []
   - name: aimwg-agent-fiduciary-duties-maintainers
     maintainers:
       - wenjing
     members:
       - swatchen
+  - name: aimwg-tmcp-specification-admins
+    maintainers:
+      - swatchen
+      - wenjing
+    members: []
+  - name: aimwg-tsp-enabled-ai-agent-protocols-admins
+    maintainers:
+      - wenjing
+    members: []
+  - name: credential-exchange-protocols-admins
+    maintainers:
+      - mathieuglaude
+    members: []
   - name: ctwg
     maintainers:
       - m00sey
@@ -17,6 +34,10 @@ teams:
       - henkvancann
       - kordwarshuis
       - talltree
+  - name: ctwg-main-glossary-admins
+    maintainers:
+      - darrellodonnell
+    members: []
   - name: dmrwg
     maintainers:
       - m00sey
@@ -28,6 +49,27 @@ teams:
       - m00sey
       - talltree
     members: []
+  - name: dtgwg-cred-spec-admins
+    maintainers:
+      - geoffturk
+    members:
+      - bmiller59
+  - name: dtgwg-cred-spec-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - albertoleon7794
+      - martipos
+  - name: dtgwg-cred-tf-admins
+    maintainers:
+      - geoffturk
+    members: []
+  - name: dtgwg-cred-tf-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - albertoleon7794
+      - bmiller59
   - name: dtgwg-general-maintainers
     maintainers:
       - talltree
@@ -49,6 +91,12 @@ teams:
       - NickyHickman
       - geoffturk
       - martipos
+  - name: dtgwg-zkp-tf-admins
+    maintainers:
+      - ryjones
+    members:
+      - ScottJeezey
+      - mitchuski
   - name: efwg
     maintainers:
       - m00sey
@@ -105,8 +153,53 @@ teams:
   - name: lfstaff
     maintainers:
       - ryjones
+    members: []
+  - name: spec-up-t-admins
+    maintainers:
+      - ryjones
     members:
-      - minyu66
+      - chris-h-sg
+  - name: spec-up-t-demo-external-ref-1-admins
+    maintainers:
+      - kordwarshuis
+    members: []
+  - name: spec-up-t-demo-external-ref-2-admins
+    maintainers:
+      - kordwarshuis
+    members: []
+  - name: spec-up-t-healthcheck-admins
+    maintainers:
+      - kordwarshuis
+    members: []
+  - name: spec-up-t-old-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - chris-h-sg
+  - name: spec-up-t-writers
+    maintainers:
+      - ryjones
+    members:
+      - pandyapreksha16-beep
+  - name: techarch-admins
+    maintainers:
+      - henkvancann
+      - kordwarshuis
+      - wenjing
+    members: []
+  - name: techarch-writers
+    maintainers:
+      - talltree
+    members: []
+  - name: toip-maintainers
+    maintainers:
+      - RieksJ
+    members:
+      - talltree
+  - name: toip-template-admins
+    maintainers:
+      - geoffturk
+    members: []
   - name: toip-template-maintainers
     maintainers:
       - talltree
@@ -116,6 +209,10 @@ teams:
       - henkvancann
       - kordwarshuis
       - martipos
+  - name: toip-writers
+    maintainers:
+      - kordwarshuis
+    members: []
   - name: tswg
     maintainers:
       - m00sey
@@ -136,6 +233,10 @@ teams:
     members:
       - swatchen
       - wenjing
+  - name: tswg-authentic-ai-admins
+    maintainers:
+      - wenjing
+    members: []
   - name: tswg-cep-tf
     maintainers:
       - m00sey
@@ -170,6 +271,10 @@ teams:
       - m00sey
     members:
       - talltree
+  - name: tswg-tech-architecture-spec-admins
+    maintainers:
+      - darrellodonnell
+    members: []
   - name: tswg-tr-tf
     maintainers:
       - andorsk
@@ -178,6 +283,10 @@ teams:
       - a-fox
       - carlyh-micb
       - darrellodonnell
+  - name: tswg-trust-registry-protocol-admins
+    maintainers:
+      - darrellodonnell
+    members: []
   - name: tswg-tsp-tf
     maintainers:
       - m00sey
@@ -204,33 +313,27 @@ repositories:
       admin: admin
     visibility: public
   - name: TechArch
-    collaborators:
-      henkvancann: admin
-      kordwarshuis: admin
-      talltree: write
-      wenjing: admin
+    teams:
+      techarch-admins: admin
+      techarch-writers: write
     visibility: public
   - name: aimwg-agent-fiduciary-duties
-    collaborators:
-      wenjing: admin
     teams:
+      aimwg-agent-fiduciary-duties-admins: admin
       aimwg-agent-fiduciary-duties-maintainers: maintain
     visibility: public
   - name: aimwg-tmcp-specification
-    collaborators:
-      swatchen: admin
-      wenjing: admin
     teams:
+      aimwg-tmcp-specification-admins: admin
       tswg-aimt-tf: maintain
     visibility: public
   - name: aimwg-tsp-enabled-ai-agent-protocols
-    collaborators:
-      wenjing: admin
+    teams:
+      aimwg-tsp-enabled-ai-agent-protocols-admins: admin
     visibility: public
   - name: credential-exchange-protocols
-    collaborators:
-      mathieuglaude: admin
     teams:
+      credential-exchange-protocols-admins: admin
       tswg-cep-tf: write
     visibility: public
   - name: ctwg-general-glossary
@@ -238,10 +341,9 @@ repositories:
       ctwg: admin
     visibility: public
   - name: ctwg-main-glossary
-    collaborators:
-      darrellodonnell: admin
     teams:
       ctwg: admin
+      ctwg-main-glossary-admins: admin
     visibility: public
   - name: ctwg-terminology-governance-guide
     teams:
@@ -252,22 +354,16 @@ repositories:
       dtgwg-maintainers: admin
     visibility: public
   - name: dtgwg-cred-spec
-    collaborators:
-      albertoleon7794: maintain
-      bmiller59: admin
-      geoffturk: admin
-      martipos: maintain
-      talltree: maintain
     teams:
       dtgwg: maintain
+      dtgwg-cred-spec-admins: admin
+      dtgwg-cred-spec-maintainers: maintain
     visibility: public
   - name: dtgwg-cred-tf
-    collaborators:
-      albertoleon7794: maintain
-      bmiller59: maintain
-      geoffturk: admin
     teams:
       dtgwg: maintain
+      dtgwg-cred-tf-admins: admin
+      dtgwg-cred-tf-maintainers: maintain
     visibility: public
   - name: dtgwg-general
     teams:
@@ -298,11 +394,9 @@ repositories:
       dtgwg-maintainers: admin
     visibility: public
   - name: dtgwg-zkp-tf
-    collaborators:
-      ScottJeezey: admin
-      mitchuski: admin
     teams:
       dtgwg-tf-maintainers: admin
+      dtgwg-zkp-tf-admins: admin
     visibility: public
   - name: egwg-learning-pathways
     teams:
@@ -367,32 +461,27 @@ repositories:
       admin: admin
     visibility: public
   - name: spec-up-t
-    collaborators:
-      chris-h-sg: admin
-      kordwarshuis: admin
-      pandyapreksha16-beep: write
     teams:
       keri-admins: admin
+      spec-up-t-admins: admin
+      spec-up-t-writers: write
     visibility: public
   - name: spec-up-t-demo-external-ref-1
-    collaborators:
-      kordwarshuis: admin
+    teams:
+      spec-up-t-demo-external-ref-1-admins: admin
     visibility: public
   - name: spec-up-t-demo-external-ref-2
-    collaborators:
-      kordwarshuis: admin
+    teams:
+      spec-up-t-demo-external-ref-2-admins: admin
     visibility: public
   - name: spec-up-t-healthcheck
-    collaborators:
-      kordwarshuis: admin
+    teams:
+      spec-up-t-healthcheck-admins: admin
     visibility: public
   - name: spec-up-t-old
-    collaborators:
-      chris-h-sg: maintain
-      henkvancann: maintain
-      kordwarshuis: maintain
     teams:
       ctwg: maintain
+      spec-up-t-old-maintainers: maintain
     visibility: public
   - name: spec-up-t-starter-pack
     teams:
@@ -407,20 +496,18 @@ repositories:
       tswg: maintain
     visibility: public
   - name: toip
-    collaborators:
-      RieksJ: maintain
-      kordwarshuis: write
-      talltree: maintain
+    teams:
+      toip-maintainers: maintain
+      toip-writers: write
     visibility: public
   - name: toip-template
-    collaborators:
-      geoffturk: admin
     teams:
+      toip-template-admins: admin
       toip-template-maintainers: maintain
     visibility: public
   - name: tswg-authentic-ai
-    collaborators:
-      wenjing: admin
+    teams:
+      tswg-authentic-ai-admins: admin
     visibility: public
   - name: tswg-did-method-webs-specification
     teams:
@@ -433,17 +520,15 @@ repositories:
       tswg-did-x509-tf: maintain
     visibility: public
   - name: tswg-tech-architecture-spec
-    collaborators:
-      darrellodonnell: admin
     teams:
       tswg-ta-tf: maintain
+      tswg-tech-architecture-spec-admins: admin
     visibility: public
   - name: tswg-trust-registry-protocol
-    collaborators:
-      darrellodonnell: admin
     teams:
       tswg: maintain
       tswg-tr-tf: write
+      tswg-trust-registry-protocol-admins: admin
     visibility: public
   - name: tswg-trust-registry-query-language
     visibility: public
