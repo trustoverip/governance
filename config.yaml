@@ -56,17 +56,25 @@ teams:
       - bmiller59
   - name: dtgwg-cred-spec-maintainers
     maintainers:
-      - ryjones
+      - geoffturk
     members:
       - albertoleon7794
       - martipos
+  - name: dtgwg-cred-spec-triage
+    maintainers:
+      - geoffturk
+    members:
+      - albertoleon7794
+      - bmiller59
+      - martipos
+      - talltree
   - name: dtgwg-cred-tf-admins
     maintainers:
       - geoffturk
     members: []
   - name: dtgwg-cred-tf-maintainers
     maintainers:
-      - ryjones
+      - geoffturk
     members:
       - albertoleon7794
       - bmiller59
@@ -157,9 +165,8 @@ teams:
     members: []
   - name: spec-up-t-admins
     maintainers:
-      - ryjones
-    members:
       - chris-h-sg
+    members: []
   - name: spec-up-t-demo-external-ref-1-admins
     maintainers:
       - kordwarshuis
@@ -174,9 +181,8 @@ teams:
     members: []
   - name: spec-up-t-old-maintainers
     maintainers:
-      - ryjones
-    members:
       - chris-h-sg
+    members: []
   - name: spec-up-t-writers
     maintainers:
       - ryjones
@@ -359,6 +365,7 @@ repositories:
       dtgwg: maintain
       dtgwg-cred-spec-admins: admin
       dtgwg-cred-spec-maintainers: maintain
+      dtgwg-cred-spec-triage: triage
     visibility: public
   - name: dtgwg-cred-tf
     teams:
