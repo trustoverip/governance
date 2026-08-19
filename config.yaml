@@ -92,6 +92,12 @@ teams:
       - geoffturk
       - martipos
       - stormer78
+  - name: dtgwg-trust-tasks-spec-maintainers
+    maintainers:
+      - talltree
+    members:
+      - bmiller59
+      - geoffturk
   - name: dtgwg-tf-maintainers
     maintainers:
       - talltree
@@ -392,6 +398,10 @@ repositories:
   - name: dtgwg-trust-tasks-tf
     teams:
       dtgwg-maintainers: admin
+    visibility: public
+  - name: dtgwg-trust-tasks-spec
+    teams:
+      dtgwg-trust-tasks-spec-maintainers: maintain
     visibility: public
   - name: dtgwg-ux-tf
     teams:
