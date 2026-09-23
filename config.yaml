@@ -63,7 +63,7 @@ teams:
       - GlinzCO
       - martipos
       - mitchuski
-      - NickyHickman 
+      - NickyHickman
       - peacekeeper
       - sankarshanmukhopadhyay
       - ScottJeezey
@@ -73,8 +73,8 @@ teams:
     maintainers:
       - talltree
     members:
-      - ScottJeezey
       - mitchuski
+      - ScottJeezey
   - name: efwg
     maintainers:
       - m00sey
@@ -96,8 +96,8 @@ teams:
       - andorsk
       - talltree
     members:
-      - JohnOnGH
       - darrellodonnell
+      - JohnOnGH
       - peacekeeper
       - sankarshanmukhopadhyay
       - trbouma
@@ -115,9 +115,9 @@ teams:
       - kordwarshuis
   - name: kswg
     maintainers:
-      - SmithSamuelM
       - m00sey
       - pfeairheller
+      - SmithSamuelM
     members: []
   - name: kswg-said-urn-charter-maintainers
     maintainers:
@@ -180,11 +180,11 @@ teams:
     maintainers:
       - talltree
     members:
-      - ScottSPerryCPA
       - carlyh-micb
       - henkvancann
       - kordwarshuis
       - martipos
+      - ScottSPerryCPA
   - name: toip-writers
     maintainers:
       - kordwarshuis
@@ -201,8 +201,8 @@ teams:
     maintainers:
       - m00sey
     members:
-      - SmithSamuelM
       - pfeairheller
+      - SmithSamuelM
   - name: tswg-aimt-tf
     maintainers:
       - m00sey
@@ -239,8 +239,8 @@ teams:
       - dhh1128
       - m00sey
     members:
-      - SmithSamuelM
       - kentbull
+      - SmithSamuelM
   - name: tswg-ta-tf
     maintainers:
       - andorsk
@@ -278,20 +278,6 @@ repositories:
   - name: .github
     teams:
       admin: admin
-    visibility: public
-  - name: EasyCLA
-    teams:
-      admin: admin
-      lfstaff: maintain
-    visibility: public
-  - name: PDF-Deliverable-Review
-    teams:
-      admin: admin
-    visibility: public
-  - name: TechArch
-    teams:
-      techarch-admins: admin
-      techarch-writers: write
     visibility: public
   - name: aimwg-agent-fiduciary-duties
     teams:
@@ -360,12 +346,12 @@ repositories:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
-  - name: dtgwg-trust-tasks-tf
+  - name: dtgwg-trust-tasks-spec
     teams:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
-  - name: dtgwg-trust-tasks-spec
+  - name: dtgwg-trust-tasks-tf
     teams:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
@@ -396,6 +382,15 @@ repositories:
       dtgwg-admins: admin
       dtgwg-zkp-tf-admins: admin
       dtgwg-maintainers: maintain
+    visibility: public
+  - name: EasyCLA
+    teams:
+      admin: admin
+      lfstaff: maintain
+    visibility: public
+  - name: egwg-governance-metamodel
+    teams:
+      egwg-learning-pathways-wg: maintain
     visibility: public
   - name: egwg-learning-pathways
     teams:
@@ -455,6 +450,10 @@ repositories:
     teams:
       admin: admin
     visibility: public
+  - name: PDF-Deliverable-Review
+    teams:
+      admin: admin
+    visibility: public
   - name: spec-up
     teams:
       admin: admin
@@ -493,6 +492,11 @@ repositories:
   - name: specification-template
     teams:
       tswg: maintain
+    visibility: public
+  - name: TechArch
+    teams:
+      techarch-admins: admin
+      techarch-writers: write
     visibility: public
   - name: toip
     teams:
