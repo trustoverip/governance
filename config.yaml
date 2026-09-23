@@ -366,6 +366,11 @@ repositories:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
+  - name: dtgwg-vsc-registry
+    teams:
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
+    visibility: public
   - name: dtgwg-vti-spec
     teams:
       dtgwg-admins: admin
