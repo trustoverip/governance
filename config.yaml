@@ -285,6 +285,10 @@ repositories:
       aimwg-tmcp-specification-admins: admin
       tswg-aimt-tf: maintain
     visibility: public
+  - name: aimwg-trust-enabled-agents
+    teams:
+      aimwg-tsp-enabled-ai-agent-protocols-admins: admin
+    visibility: public
   - name: aimwg-tsp-enabled-ai-agent-protocols
     teams:
       aimwg-tsp-enabled-ai-agent-protocols-admins: admin
@@ -342,6 +346,10 @@ repositories:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
+  - name: dtgwg-rcards-tf
+    teams:
+      dtgwg-maintainers: maintain
+    visibility: public
   - name: dtgwg-trust-tasks-spec
     teams:
       dtgwg-admins: admin
@@ -351,6 +359,8 @@ repositories:
     teams:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
+    visibility: public
+  - name: dtgwg-ux-tf
     visibility: public
   - name: dtgwg-vds-spec
     teams:
