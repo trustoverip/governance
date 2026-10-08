@@ -148,10 +148,6 @@ teams:
     maintainers:
       - kordwarshuis
     members: []
-  - name: spec-up-t-old-maintainers
-    maintainers:
-      - chris-h-sg
-    members: []
   - name: spec-up-t-writers
     maintainers:
       - ryjones
@@ -480,11 +476,6 @@ repositories:
   - name: spec-up-t-healthcheck
     teams:
       spec-up-t-healthcheck-admins: admin
-    visibility: public
-  - name: spec-up-t-old
-    teams:
-      ctwg: maintain
-      spec-up-t-old-maintainers: maintain
     visibility: public
   - name: spec-up-t-starter-pack
     teams:
