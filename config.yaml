@@ -83,6 +83,11 @@ teams:
     maintainers:
       - carlyh-micb
     members: []
+  - name: egwg-reporting-tf-prototype-mcp-maintainers
+    maintainers:
+      - carlyh-micb
+    members:
+      - sankarshanmukhopadhyay
   - name: gswg
     maintainers:
       - m00sey
@@ -406,6 +411,10 @@ repositories:
   - name: egwg-learning-pathways
     teams:
       egwg-learning-pathways-wg: maintain
+    visibility: public
+  - name: egwg-reporting-tf-prototype-mcp
+    teams:
+      egwg-reporting-tf-prototype-mcp-maintainers: maintain
     visibility: public
   - name: governance
     teams:
