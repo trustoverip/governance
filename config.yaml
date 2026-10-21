@@ -32,12 +32,6 @@ teams:
     maintainers:
       - darrellodonnell
     members: []
-  - name: dmrwg
-    maintainers:
-      - m00sey
-    members:
-      - neiljthomson
-      - stevenmilstein
   - name: dtgwg-admins
     maintainers:
       - talltree
@@ -69,10 +63,6 @@ teams:
     members:
       - mitchuski
       - ScottJeezey
-  - name: efwg
-    maintainers:
-      - m00sey
-    members: []
   - name: egwg-learning-pathways-wg
     maintainers:
       - carlyh-micb
@@ -82,14 +72,6 @@ teams:
       - carlyh-micb
     members:
       - sankarshanmukhopadhyay
-  - name: gswg
-    maintainers:
-      - m00sey
-    members: []
-  - name: hewg
-    maintainers:
-      - m00sey
-    members: []
   - name: high-assurance-verifiable-identifiers-wg
     maintainers:
       - andorsk
