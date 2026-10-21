@@ -153,13 +153,9 @@ teams:
   - name: toip-maintainers
     maintainers:
       - m00sey
-    members:
-      - darrellodonnell
-      - talltree
-  - name: toip-maintainers
-    maintainers:
       - RieksJ
     members:
+      - darrellodonnell
       - talltree
   - name: toip-template-admins
     maintainers:
