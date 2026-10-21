@@ -1,10 +1,4 @@
 teams:
-  - name: admin
-    maintainers:
-      - m00sey
-    members:
-      - darrellodonnell
-      - talltree
   - name: aimwg-agent-fiduciary-duties-admins
     maintainers:
       - wenjing
@@ -168,6 +162,18 @@ teams:
     maintainers:
       - talltree
     members: []
+  - name: toip-admins
+    maintainers:
+      - m00sey
+    members:
+      - darrellodonnell
+      - talltree
+  - name: toip-maintainers
+    maintainers:
+      - m00sey
+    members:
+      - darrellodonnell
+      - talltree
   - name: toip-maintainers
     maintainers:
       - RieksJ
@@ -278,7 +284,7 @@ teams:
 repositories:
   - name: .github
     teams:
-      admin: admin
+      toip-admins: admin
     visibility: public
   - name: aimwg-agent-fiduciary-duties
     teams:
@@ -401,7 +407,7 @@ repositories:
     visibility: public
   - name: EasyCLA
     teams:
-      admin: admin
+      toip-admins: admin
       lfstaff: maintain
     visibility: public
   - name: egwg-governance-metamodel
@@ -418,7 +424,7 @@ repositories:
     visibility: public
   - name: governance
     teams:
-      admin: maintain
+      toip-maintainers: maintain
       lfstaff: maintain
     visibility: public
   - name: high-assurance-verifiable-identifiers
@@ -468,15 +474,15 @@ repositories:
     visibility: public
   - name: logo-assets
     teams:
-      admin: admin
+      toip-admins: admin
     visibility: public
   - name: PDF-Deliverable-Review
     teams:
-      admin: admin
+      toip-admins: admin
     visibility: public
   - name: spec-up
     teams:
-      admin: admin
+      toip-admins: admin
     visibility: public
   - name: spec-up-t
     teams:
