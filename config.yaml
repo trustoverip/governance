@@ -21,7 +21,7 @@ teams:
     maintainers:
       - mathieuglaude
     members: []
-  - name: ctwg
+  - name: ctwg-admins
     maintainers:
       - m00sey
     members:
@@ -311,16 +311,16 @@ repositories:
     visibility: public
   - name: ctwg-general-glossary
     teams:
-      ctwg: admin
+      ctwg-admins: admin
     visibility: public
   - name: ctwg-main-glossary
     teams:
-      ctwg: admin
+      ctwg-admins: admin
       ctwg-main-glossary-admins: admin
     visibility: public
   - name: ctwg-terminology-governance-guide
     teams:
-      ctwg: admin
+      ctwg-admins: admin
     visibility: public
   - name: dtgwg-agent-names-spec
     teams:
@@ -464,7 +464,7 @@ repositories:
     visibility: public
   - name: kswg-main-glossary
     teams:
-      ctwg: admin
+      ctwg-admins: admin
       kswg: admin
     visibility: public
   - name: kswg-said-urn-charter
@@ -504,11 +504,11 @@ repositories:
     visibility: public
   - name: spec-up-t-starter-pack
     teams:
-      ctwg: admin
+      ctwg-admins: admin
     visibility: public
   - name: spec-up-t-website
     teams:
-      ctwg: admin
+      ctwg-admins: admin
     visibility: public
   - name: specification-template
     teams:
