@@ -150,6 +150,12 @@ teams:
     members:
       - darrellodonnell
       - talltree
+  - name: toip-governance-maintainers
+    maintainers:
+      - carlyh-micb
+    members:
+      - ScottSPerryCPA
+      - talltree
   - name: toip-maintainers
     maintainers:
       - m00sey
@@ -501,6 +507,10 @@ repositories:
     teams:
       toip-maintainers: maintain
       toip-writers: write
+    visibility: public
+  - name: toip-governance
+    teams:
+      toip-governance-maintainers: maintain
     visibility: public
   - name: toip-template
     teams:
