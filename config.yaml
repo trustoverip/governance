@@ -526,6 +526,10 @@ repositories:
       tswg: maintain
       tswg-did-webs-tf: maintain
     visibility: public
+  - name: tswg-did-scid-method-spec
+    teams:
+      dtgwg-maintainers: maintain
+    visibility: public
   - name: tswg-did-x509-method-specification
     teams:
       tswg: maintain
