@@ -528,6 +528,7 @@ repositories:
     visibility: public
   - name: tswg-did-scid-method-spec
     teams:
+      dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
   - name: tswg-did-x509-method-specification
