@@ -67,6 +67,8 @@ teams:
     maintainers:
       - carlyh-micb
     members:
+      - guru-barbes
+      - Hkdolts
       - stevenmilstein
   - name: egwg-learning-pathways-wg
     maintainers:
