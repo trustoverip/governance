@@ -63,6 +63,11 @@ teams:
     members:
       - mitchuski
       - ScottJeezey
+  - name: egwg-governance-metamodel-maintainers
+    maintainers:
+      - carlyh-micb
+    members:
+      - stevenmilstein
   - name: egwg-learning-pathways-wg
     maintainers:
       - carlyh-micb
@@ -380,22 +385,23 @@ repositories:
   - name: dtgwg-zkp-spec
     teams:
       dtgwg-admins: admin
-      dtgwg-zkp-tf-admins: admin
       dtgwg-maintainers: maintain
+      dtgwg-zkp-tf-admins: admin
     visibility: public
   - name: dtgwg-zkp-tf
     teams:
       dtgwg-admins: admin
-      dtgwg-zkp-tf-admins: admin
       dtgwg-maintainers: maintain
+      dtgwg-zkp-tf-admins: admin
     visibility: public
   - name: EasyCLA
     teams:
-      toip-admins: admin
       lfstaff: maintain
+      toip-admins: admin
     visibility: public
   - name: egwg-governance-metamodel
     teams:
+      egwg-governance-metamodel-maintainers: maintain
       egwg-learning-pathways-wg: maintain
     visibility: public
   - name: egwg-learning-pathways
@@ -408,8 +414,8 @@ repositories:
     visibility: public
   - name: governance
     teams:
-      toip-maintainers: maintain
       lfstaff: maintain
+      toip-maintainers: maintain
     visibility: public
   - name: high-assurance-verifiable-identifiers
     teams:
