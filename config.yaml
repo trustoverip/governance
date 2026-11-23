@@ -139,8 +139,7 @@ teams:
   - name: spec-up-t-writers
     maintainers:
       - ryjones
-    members:
-      - pandyapreksha16-beep
+    members: []
   - name: techarch-admins
     maintainers:
       - henkvancann
